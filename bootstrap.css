@@ -1,0 +1,485 @@
+.nav-item {
+  padding: 0px 12px;
+  font-size: 17px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  transition: transform 1s;
+  transform: scale(1,1);
+  font-family: 'Play', sans-serif;
+  letter-spacing: 1px;
+}
+
+.nav-item:hover {
+  font-size: 18px;
+  font-weight: bold;
+  background-image: linear-gradient(to bottom right ,#dc3545, #781D42);
+  border-radius: 10px;
+  transform: scale(1.03,1.03);
+}
+
+#brand {
+  font-family: 'Play', sans-serif;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  padding-bottom: 0px;
+  font-weight: bolder;
+}
+
+header {
+  position: relative;
+  background-color: black;
+  height: 100vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+header .container-fluid {
+  position: relative;
+  align-items: center;
+  text-align: center;
+  z-index: 2;
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+h1 {
+  letter-spacing: 15px;
+  color: #ECDBBA;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: bolder;
+  filter: drop-shadow(0 0 2px black);
+}
+
+h1:hover {
+  color: #dc3545;
+}
+
+h2 {
+  color: #E4CDA7;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 100;
+  letter-spacing: 1px;
+}
+
+.container-fluid {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+#fit-cv {
+  min-height: 100%;
+  height: 100vh;
+  background-image: url(img-66.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top,center;
+  background-attachment: fixed;
+  overflow: hidden;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+
+}
+
+#sec {
+  height: 100vh;
+  padding-top: 2%;
+  padding-left: 3%;
+  padding-right: 15%;
+  padding-bottom: 10%;
+}
+
+#founder {
+  backdrop-filter: blur(5px);
+  background-color: rgba(28, 0, 46, 0.1);
+  margin-top: 5%;
+  padding: 15px;
+}
+#row1{
+
+}
+#title {
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 28px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  color: white;
+}
+
+#intro {
+  padding-left: 10px;
+  padding-right: 10%;
+  font-family: 'Ubuntu', sans-serif;
+  letter-spacing: 1px;
+  font-size: 90%;
+  line-height: 2;
+  color: white;
+}
+
+#row2{
+
+}
+
+#founder2{
+  backdrop-filter: blur(5px);
+  background-color: rgba(28, 0, 46, 0.1);
+  margin-top: 2%;
+  padding: 10px;
+}
+
+#title2 {
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 28px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  color: white;
+}
+
+#intro2 {
+  padding-left: 10px;
+  padding-right: 8%;
+  font-family: 'Ubuntu', sans-serif;
+  letter-spacing: 1px;
+  font-size: 90%;
+  line-height: 2;
+  color: white;
+}
+
+.dis {
+  display: flex;
+  justify-content: center;
+}
+
+/****** services-section*******/
+#services {
+  height: auto;
+  width: 100%;
+  background-image: linear-gradient(to bottom ,#072227, #0F0E0E);
+}
+
+#serv {
+  height: auto;
+  width: 100%;
+  padding: 5% 10%;
+}
+
+#tit {
+  font-family: 'Montserrat Alternates', sans-serif;
+  color: white;
+  padding-bottom: 10%;
+  display: flex;
+  justify-content: center;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.tr1 {
+  position: relative;
+  border-radius: 20px;
+  max-width: 100%;
+  transition: transform 2s;
+  margin-bottom: 50px;
+  filter: drop-shadow(0 0 4px black);
+}
+
+.cont1 {
+  border-radius: 20px;
+  max-width: 100%;
+  transition: transform 2s;
+  filter: drop-shadow(0 0 4px black);
+}
+
+.oh {
+  overflow: hidden;
+}
+
+.overlay-img {
+  position: absolute;
+  width: 400px;
+  height: 420px;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.25s;
+  border-radius: 20px;
+  transition-duration: 1.25s;
+  transform: scale(1, 1);
+}
+
+.overlay-img:hover {
+  opacity: 1;
+  border-radius: 20px;
+  transform: scale(1, 1);
+  overflow: hidden;
+}
+
+.teimg {
+  transition: transform 2s;
+  transform: scale(0.9, 0.9);
+}
+
+.teimg:hover {
+  transform: scale(1, 1);
+}
+
+.overlay-img2 {
+  position: absolute;
+  width: 400px;
+  height: 420px;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.25s;
+  border-radius: 20px;
+  transition-duration: 1.25s;
+  transform: scale(1, 1);
+}
+
+.overlay-img2:hover {
+  opacity: 1;
+  border-radius: 20px;
+  transform: scale(1, 1);
+  overflow: hidden;
+}
+
+.teimg2 {
+  transition: transform 2s;
+  transform: scale(0.9, 0.9);
+}
+
+.teimg2:hover {
+  transform: scale(1, 1);
+}
+
+.sec1 {
+  position: absolute;
+  bottom: 100%;
+  text-align: center;
+  z-index: 2;
+  padding-top: 2%;
+  padding-bottom: 1%;
+}
+
+#sector1 {
+  color: white;
+  letter-spacing: 1px;
+}
+
+#div1 {
+  padding-bottom: 10%;
+}
+/****** slideshow-section*******/
+.slidee {
+  height: 40rem;
+}
+#slideshow{
+
+  }
+.slide-1 {
+  background-image: url(slide-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top,center;
+
+}
+.job {
+  letter-spacing: 2px;
+}
+.jobb {
+  letter-spacing: 2px;
+  font-size: 25px;
+}
+.slide-2 {
+
+  background-image: url(slide-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top,center;
+
+}
+.slide-3 {
+
+  background-image: url(slid-3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top,center;
+
+}
+
+
+
+/****** pricing-list *******/
+#cards{
+  background-color: #EEEDDE;
+  padding: 100px;
+  text-align: center;
+}
+.price{
+  padding: 2% 5%;
+
+}
+
+.card:hover{
+  filter: drop-shadow(0 0 2px black);
+  transform: scale(1.02);
+}
+
+.pr-title{
+  color: black;
+  letter-spacing: 1;
+}
+
+span {
+  text-decoration: line-through;
+}
+.costr {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+/*contact-us*/
+#conn {
+  text-align: center;
+}
+
+#contact-us {
+  height: auto;
+
+  background-image: linear-gradient(to right ,#dc3545, #781D42);
+
+}
+
+#cont-us {
+
+  padding: 5% 8%;
+}
+
+.hov {
+  padding-top: 3%;
+  padding-bottom: 3%;
+  transition: transform 1s;
+  transform: scale(1, 1);
+  filter: drop-shadow(0 0 1px black);
+}
+
+.hov:hover {
+  transform: scale(1.2, 1.2);
+}
+
+.pd {
+  font-family: 'Montserrat Alternates', sans-serif;
+  color: #D8D2CB;
+}
+
+i {
+  margin-right: 1%;
+}
+
+.col-tx {
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-weight: bold;
+  font-size: 150%;
+  letter-spacing: 1px;
+  color: white;
+}
+
+.foot {
+  padding-top: 2%;
+  margin: auto;
+  text-align: center;
+}
+
+.pdd {
+  font-family: 'Montserrat Alternates', sans-serif;
+  padding-top:2%;
+  color: #D8D2CB;
+}
+
+.iccon {
+  margin: auto;
+  text-align: center;
+}
+
+.hobb {
+
+  padding-bottom: 10%;
+}
+
+/********** media quiry ***********/
+@media screen and (max-width: 576px) {
+  #title {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color: white;
+  }
+
+  #intro {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10%;
+    font-family: 'Ubuntu', sans-serif;
+    letter-spacing: 1px;
+    font-size: 15px;
+    line-height: 25px;
+    color: white;
+  }
+  #title2 {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color: white;
+  }
+
+  #intro2 {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 8%;
+    font-family: 'Ubuntu', sans-serif;
+    letter-spacing: 1px;
+    font-size: 15px;
+    line-height: 25px;
+    color: white;
+  }
+
+}
