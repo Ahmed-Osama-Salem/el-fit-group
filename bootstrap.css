@@ -68,6 +68,11 @@ header .overlay {
   z-index: 1;
 }
 
+.logofit{
+  margin-top: 100px;
+  filter: drop-shadow(0 0 2px black);
+}
+
 h1 {
   letter-spacing: 15px;
   color: #ECDBBA;
@@ -443,43 +448,105 @@ i {
   padding-bottom: 10%;
 }
 
-/********** media quiry ***********/
-@media screen and (max-width: 576px) {
+/********** media quiry - fit cv section ***********/
+@media only screen and (max-device-width:480px) {
+
+  #founder {
+    width: 100%;
+    margin-top: 50px;
+  }
+
   #title {
-    font-family: 'Montserrat Alternates', sans-serif;
-    font-size: 30px;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    color: white;
+    font-size: 4rem;
   }
 
   #intro {
-    width: 100%;
-    padding-left: 10px;
-    padding-right: 10%;
-    font-family: 'Ubuntu', sans-serif;
-    letter-spacing: 1px;
-    font-size: 15px;
-    line-height: 25px;
-    color: white;
+    font-size: 2.3rem;
   }
+
+  #founder2 {
+    width: 100%;
+    margin-top: 60px;
+  }
+
   #title2 {
-    font-family: 'Montserrat Alternates', sans-serif;
-    font-size: 30px;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    color: white;
+    font-size: 4rem;
   }
 
   #intro2 {
-    width: 100%;
-    padding-left: 10px;
-    padding-right: 8%;
-    font-family: 'Ubuntu', sans-serif;
-    letter-spacing: 1px;
-    font-size: 15px;
-    line-height: 25px;
-    color: white;
+    font-size: 2.3rem;
   }
 
+  #fit-cv {
+    height: 100vh;
+    background-image: url(img-66.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -1600px;
+    background-attachment: fixed;
+    overflow: hidden;
+    width: auto;
+  }
+
+}
+/********** media quiry - home page and navbar ***********/
+@media only screen and (max-device-width:480px) {
+.logofit{
+  margin-top: 0px;
+  width: 400px;
+  float: left;
+}
+
+#f1{
+  font-size: 6rem;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  line-height: 1.5;
+  font-weight: bold;
+}
+.f2{
+  clear: both;
+  font-size: 2.5rem;
+  letter-spacing: 10px;
+  padding-bottom: 4%;
+  padding-bottom: 5%;
+}
+#btn-sign{
+  width: 300px;
+  font-size: 2.5rem;
+  letter-spacing: 4px;
+  font-family: 'Montserrat Alternates', sans-serif;
+  padding: 2%;
+  margin-top: 2%;
+}
+#logofit1{
+  width: 100px;
+}
+#brand{
+  font-size: 50px;
+  letter-spacing: 5px;
+}
+#togglericon{
+  width: 70px;
+  height: 80px;
+}
+.nav-item{
+  font-size: 2.5rem;
+}
+.nav-item:hover {
+  font-size: 2.7rem;
+  font-weight: bold;
+  border-radius: 30px;
+  transform: scale(1.02,1.02);
+}
+#searchbar{
+  height: 70px;
+  padding: 10px 0;
+}
+#inform{
+  font-size: 30px;
+}
+#searchbtn{
+  font-size: 30px;
+}
 }

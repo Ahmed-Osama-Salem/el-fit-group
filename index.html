@@ -2,7 +2,6 @@
 <html lang="en" dir="ltr">
 
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="utf-8">
   <title>EL-FIT GROUP</title>
   <link rel="stylesheet" href="bootstrap.css">
@@ -25,14 +24,16 @@
   <!-- bootstrap-dns -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <!--include the following meta tag to make chrome dev tools recognize media queries: -->
+
 </head>
 
 <body>
   <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark ps-2 pe-2 pt-1 pb-1">
     <a class="navbar-brand" id="brand" href="index.html">
-      <img src="fiit.png" alt="" width="35" height="auto" class="d-inline-block">EL-FIT GROUP</a>
+      <img src="fiit.png" alt="" width="35" height="auto" class="d-inline-block" id="logofit1">EL-FIT GROUP</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+      <span class="navbar-toggler-icon" id="togglericon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
       <ul class="navbar-nav ms-auto">
@@ -52,9 +53,9 @@
           <a class="nav-link just" href="#contact-us">Contact us</a>
         </li>
       </ul>
-      <form class="d-flex p-2">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-danger" type="submit">Search</button>
+      <form class="d-flex p-2" id="searchbar">
+        <input id="inform" class="form-control me-2 inform" type="search" placeholder="Search" aria-label="Search">
+        <button id="searchbtn" class="btn btn-outline-danger" type="submit">Search</button>
       </form>
     </div>
   </nav>
@@ -68,10 +69,10 @@
     <div class="container-fluid h-100">
       <div class="d-flex h-100 text-center align-items-center">
         <div class="w-100 lh-lg">
-          <img src="fiit.png" width="250" alt="fit-logo" style="margin-top: 100px; filter: drop-shadow(0 0 2px black);">
-          <h1 class="display-1 mt-2">EL-FIT GROUP</h1>
-          <h2 class="display-8 mt-1 ms-auto me-auto fw-light">GENERAL CONTRACTING AND ENGINEERING TRAINNING</h2>
-          <a class="btn btn-outline-danger lh-sm mt-4 mb-4 ms-auto me-auto btn-lg" href="#" role="button">Sign up</a>
+          <img class="logofit" src="fiit.png" width="250" alt="fit-logo">
+          <h1  id="f1" class="display-1 mt-2">EL-FIT GROUP</h1>
+          <h2 class="display-8 mt-1 ms-auto me-auto fw-light f2">GENERAL CONTRACTING AND ENGINEERING TRAINNING</h2>
+          <a id="btn-sign" class="btn btn-outline-danger lh-sm mt-4 mb-4 ms-auto me-auto btn-lg" href="#" role="button">Sign up</a>
         </div>
       </div>
     </div>
