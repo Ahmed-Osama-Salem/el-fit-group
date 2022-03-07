@@ -98,18 +98,16 @@ h2 {
 }
 
 #fit-cv {
-  min-height: 100%;
-  height: 100vh;
   background-image: url(img-66.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top,center;
   background-attachment: fixed;
+  position: relative;
+  height: 100vh;
+  min-height: 25rem;
+  width: 100%;
   overflow: hidden;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-
 }
 
 #sec {
@@ -482,10 +480,9 @@ i {
     background-image: url(img-66.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: -1600px;
-    background-attachment: fixed;
+    background-position: top;
     overflow: hidden;
-    width: auto;
+    width: 100vw;
   }
 
 }
