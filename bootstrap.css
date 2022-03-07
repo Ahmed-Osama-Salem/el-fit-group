@@ -98,19 +98,19 @@ h2 {
 }
 
 #fit-cv {
+
+}
+
+#sec {
   background-image: url(img-66.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top,center;
   background-attachment: fixed;
   position: relative;
-  height: 100vh;
   min-height: 25rem;
   width: 100%;
   overflow: hidden;
-}
-
-#sec {
   height: 100vh;
   padding-top: 2%;
   padding-left: 3%;
@@ -475,7 +475,7 @@ i {
     font-size: 2.3rem;
   }
 
-  #fit-cv {
+  #sec {
     height: 100vh;
     background-image: url(img-66.png);
     background-repeat: no-repeat;
@@ -483,6 +483,7 @@ i {
     background-position: top;
     overflow: hidden;
     width: 100vw;
+    background-attachment: scroll;
   }
 
 }
