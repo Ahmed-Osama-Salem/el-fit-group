@@ -5,7 +5,7 @@
   display: flex;
   justify-content: center;
   transition: transform 1s;
-  transform: scale(1,1);
+  transform: scale(1, 1);
   font-family: 'Play', sans-serif;
   letter-spacing: 1px;
 }
@@ -13,9 +13,9 @@
 .nav-item:hover {
   font-size: 18px;
   font-weight: bold;
-  background-image: linear-gradient(to bottom right ,#dc3545, #781D42);
+  background-image: linear-gradient(to bottom right, #dc3545, #781D42);
   border-radius: 10px;
-  transform: scale(1.03,1.03);
+  transform: scale(1.03, 1.03);
 }
 
 #brand {
@@ -68,7 +68,7 @@ header .overlay {
   z-index: 1;
 }
 
-.logofit{
+.logofit {
   margin-top: 100px;
   filter: drop-shadow(0 0 2px black);
 }
@@ -96,18 +96,15 @@ h2 {
   padding-left: 5%;
   padding-right: 5%;
 }
-/***** arrow-section ******/
 
 /***** fit-cv-section ******/
-#fit-cv {
-
-}
+#fit-cv {}
 
 #sec {
   background-image: url(img-66.png);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: top,center;
+  background-position: top, center;
   background-attachment: fixed;
   position: relative;
   min-height: 25rem;
@@ -126,9 +123,9 @@ h2 {
   margin-top: 5%;
   padding: 15px;
 }
-#row1{
 
-}
+#row1 {}
+
 #title {
   font-family: 'Montserrat Alternates', sans-serif;
   font-size: 28px;
@@ -147,11 +144,9 @@ h2 {
   color: white;
 }
 
-#row2{
+#row2 {}
 
-}
-
-#founder2{
+#founder2 {
   backdrop-filter: blur(5px);
   background-color: rgba(28, 0, 46, 0.1);
   margin-top: 2%;
@@ -185,7 +180,7 @@ h2 {
 #services {
   height: auto;
   width: 100%;
-  background-image: linear-gradient(to bottom ,#072227, #0F0E0E);
+  background-image: linear-gradient(to bottom, #072227, #0F0E0E);
 }
 
 #serv {
@@ -311,63 +306,61 @@ h2 {
 #div1 {
   padding-bottom: 10%;
 }
+
 /****** slideshow-section*******/
 .slidee {
   height: 40rem;
 }
-#slideshow{
 
-  }
+#slideshow {}
+
 .slide-1 {
   background-image: url(slide-1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: top,center;
-
+  background-position: top, center;
 }
+
 .job {
   letter-spacing: 2px;
 }
+
 .jobb {
   letter-spacing: 2px;
   font-size: 25px;
 }
-.slide-2 {
 
+.slide-2 {
   background-image: url(slide-2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: top,center;
-
+  background-position: top, center;
 }
-.slide-3 {
 
+.slide-3 {
   background-image: url(slid-3.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: top,center;
-
+  background-position: top, center;
 }
 
-
-
 /****** pricing-list *******/
-#cards{
+#cards {
   background-color: #EEEDDE;
   padding: 100px;
   text-align: center;
 }
-.price{
-  padding: 2% 5%;
 
+.price {
+  padding: 2% 5%;
 }
 
-.card:hover{
+.card:hover {
   filter: drop-shadow(0 0 2px black);
   transform: scale(1.02);
 }
 
-.pr-title{
+.pr-title {
   color: black;
   letter-spacing: 1;
 }
@@ -375,6 +368,7 @@ h2 {
 span {
   text-decoration: line-through;
 }
+
 .costr {
   text-decoration: underline;
   font-weight: bold;
@@ -387,13 +381,10 @@ span {
 
 #contact-us {
   height: auto;
-
-  background-image: linear-gradient(to right ,#dc3545, #781D42);
-
+  background-image: linear-gradient(to right, #dc3545, #781D42);
 }
 
 #cont-us {
-
   padding: 5% 8%;
 }
 
@@ -434,7 +425,7 @@ i {
 
 .pdd {
   font-family: 'Montserrat Alternates', sans-serif;
-  padding-top:2%;
+  padding-top: 2%;
   color: #D8D2CB;
 }
 
@@ -444,13 +435,11 @@ i {
 }
 
 .hobb {
-
   padding-bottom: 10%;
 }
 
 /********** media quiry - fit cv section ***********/
 @media only screen and (max-device-width:480px) {
-
   #founder {
     width: 100%;
     margin-top: 50px;
@@ -487,118 +476,222 @@ i {
     width: 100vw;
     background-attachment: scroll;
   }
-
 }
+
 /********** media quiry - home page and navbar ***********/
 @media only screen and (max-device-width:480px) {
-.logofit{
-  margin-top: 0px;
-  width: 400px;
-  float: left;
-}
+  .logofit {
+    margin-top: 0px;
+    width: 400px;
+    float: left;
+  }
 
-#f1{
-  font-size: 6rem;
-  padding-top: 40px;
-  padding-bottom: 20px;
-  line-height: 1.5;
-  font-weight: bold;
-}
-.f2{
-  clear: both;
-  font-size: 2.5rem;
-  letter-spacing: 10px;
-  padding-bottom: 4%;
-  padding-bottom: 5%;
-}
-#btn-sign{
-  width: 300px;
-  font-size: 2.5rem;
-  letter-spacing: 4px;
-  font-family: 'Montserrat Alternates', sans-serif;
-  padding: 2%;
-  margin-top: 2%;
-}
-#logofit1{
-  width: 100px;
-}
-#brand{
-  font-size: 50px;
-  letter-spacing: 5px;
-}
-#togglericon{
-  width: 70px;
-  height: 80px;
-}
-.nav-item{
-  font-size: 2.5rem;
-}
-.nav-item:hover {
-  font-size: 2.7rem;
-  font-weight: bold;
-  border-radius: 30px;
-  transform: scale(1.02,1.02);
-}
-#searchbar{
-  height: 70px;
-  padding: 10px 0;
-}
-#inform{
-  font-size: 30px;
-}
-#searchbtn{
-  font-size: 30px;
-}
-html body [data-ca3_iconfont="ETmodules"]::before {
+  #f1 {
+    font-size: 6rem;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    line-height: 1.5;
+    font-weight: bold;
+  }
+
+  .f2 {
+    clear: both;
+    font-size: 2.5rem;
+    letter-spacing: 10px;
+    padding-bottom: 4%;
+    padding-bottom: 5%;
+  }
+
+  #btn-sign {
+    width: 300px;
+    font-size: 2.5rem;
+    letter-spacing: 4px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    padding: 2%;
+    margin-top: 2%;
+  }
+
+  #logofit1 {
+    width: 100px;
+  }
+
+  #brand {
+    font-size: 50px;
+    letter-spacing: 5px;
+  }
+
+  #togglericon {
+    width: 70px;
+    height: 80px;
+  }
+
+  .nav-item {
+    font-size: 2.5rem;
+  }
+
+  .nav-item:hover {
+    font-size: 2.7rem;
+    font-weight: bold;
+    border-radius: 30px;
+    transform: scale(1.02, 1.02);
+  }
+
+  #searchbar {
+    height: 70px;
+    padding: 10px 0;
+  }
+
+  #inform {
+    font-size: 30px;
+  }
+
+  #searchbtn {
+    font-size: 30px;
+  }
+
+  html body [data-ca3_iconfont="ETmodules"]::before {
     font-family: "ETmodules";
-}
-[data-ca3_icon]::before {
+  }
+
+  [data-ca3_icon]::before {
     font-weight: normal;
     content: attr(data-ca3_icon);
+  }
+
+  .ca3-scroll-down-arrow {
+    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iQ2hldnJvbl90aGluX2Rvd24iIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgMjAgMjAiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDIwIDIwIiBmaWxsPSJ3aGl0ZSIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+PHBhdGggZD0iTTE3LjQxOCw2LjEwOWMwLjI3Mi0wLjI2OCwwLjcwOS0wLjI2OCwwLjk3OSwwYzAuMjcsMC4yNjgsMC4yNzEsMC43MDEsMCwwLjk2OWwtNy45MDgsNy44M2MtMC4yNywwLjI2OC0wLjcwNywwLjI2OC0wLjk3OSwwbC03LjkwOC03LjgzYy0wLjI3LTAuMjY4LTAuMjctMC43MDEsMC0wLjk2OWMwLjI3MS0wLjI2OCwwLjcwOS0wLjI2OCwwLjk3OSwwTDEwLDEzLjI1TDE3LjQxOCw2LjEwOXoiLz48L3N2Zz4=);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .ca3-scroll-down-link {
+    cursor: pointer;
+    height: 200px;
+    width: 80px;
+    margin: 0px 0 0 -40px;
+    line-height: 60px;
+    position: absolute;
+    left: 50%;
+    bottom: 300px;
+    color: #FFF;
+    text-align: center;
+    font-size: 70px;
+    z-index: 100;
+    text-decoration: none;
+    text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.4);
+    -webkit-animation: ca3_fade_move_down 2s ease-in-out infinite;
+    -moz-animation: ca3_fade_move_down 2s ease-in-out infinite;
+    animation: ca3_fade_move_down 2s ease-in-out infinite;
+  }
+
+  /*animated scroll arrow animation*/
+  @-webkit-keyframes ca3_fade_move_down {
+    0% {
+      -webkit-transform: translate(0, -20px);
+      opacity: 0;
+    }
+
+    50% {
+      opacity: 1;
+    }
+
+    100% {
+      -webkit-transform: translate(0, 20px);
+      opacity: 0;
+    }
+  }
+
+  @-moz-keyframes ca3_fade_move_down {
+    0% {
+      -moz-transform: translate(0, -20px);
+      opacity: 0;
+    }
+
+    50% {
+      opacity: 1;
+    }
+
+    100% {
+      -moz-transform: translate(0, 20px);
+      opacity: 0;
+    }
+  }
+
+  @keyframes ca3_fade_move_down {
+    0% {
+      transform: translate(0, -20px);
+      opacity: 0;
+    }
+
+    50% {
+      opacity: 1;
+    }
+
+    100% {
+      transform: translate(0, 20px);
+      opacity: 0;
+    }
+  }
 }
 
-.ca3-scroll-down-arrow {
-	background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iQ2hldnJvbl90aGluX2Rvd24iIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgMjAgMjAiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDIwIDIwIiBmaWxsPSJ3aGl0ZSIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+PHBhdGggZD0iTTE3LjQxOCw2LjEwOWMwLjI3Mi0wLjI2OCwwLjcwOS0wLjI2OCwwLjk3OSwwYzAuMjcsMC4yNjgsMC4yNzEsMC43MDEsMCwwLjk2OWwtNy45MDgsNy44M2MtMC4yNywwLjI2OC0wLjcwNywwLjI2OC0wLjk3OSwwbC03LjkwOC03LjgzYy0wLjI3LTAuMjY4LTAuMjctMC43MDEsMC0wLjk2OWMwLjI3MS0wLjI2OCwwLjcwOS0wLjI2OCwwLjk3OSwwTDEwLDEzLjI1TDE3LjQxOCw2LjEwOXoiLz48L3N2Zz4=);
-	background-size: contain;
-	background-repeat: no-repeat;
+/********** media quiry - slideshow ***********/
+@media only screen and (max-device-width:480px) {
+  .slidee {
+    height: 50vh;
+  }
+
+  .job {
+    font-size: 3.5rem;
+    padding-bottom: 2%;
+  }
+
+  .jobb {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+  }
+
+  .teext {
+    margin-bottom: 30%;
+  }
+
+  #bot-lg1 {
+    width: 350px;
+    font-size: 2rem;
+    letter-spacing: 3px;
+  }
+
+  #bot-lg2 {
+    width: 350px;
+    font-size: 2rem;
+    letter-spacing: 3px;
+  }
+
+  #bot-lg3 {
+    width: 350px;
+    font-size: 2rem;
+    letter-spacing: 3px;
+  }
 }
 
-.ca3-scroll-down-link {
-  cursor:pointer;
-	height: 200px;
-	width: 80px;
-	margin: 0px 0 0 -40px;
-	line-height: 60px;
-	position: absolute;
-	left: 50%;
-	bottom: 300px;
-	color: #FFF;
-	text-align: center;
-	font-size: 70px;
-	z-index: 100;
-	text-decoration: none;
-	text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.4);
-
-	-webkit-animation: ca3_fade_move_down 2s ease-in-out infinite;
-	-moz-animation:    ca3_fade_move_down 2s ease-in-out infinite;
-	animation:         ca3_fade_move_down 2s ease-in-out infinite;
+/********** media quiry - cards ***********/
+@media only screen and (max-device-width:480px) {
+.pr-title {
+  font-size: 3rem;
 }
 
+.pr-text {
+  font-size: 2rem;
+}
 
-/*animated scroll arrow animation*/
-@-webkit-keyframes ca3_fade_move_down {
-  0%   { -webkit-transform:translate(0,-20px); opacity: 0;  }
-  50%  { opacity: 1;  }
-  100% { -webkit-transform:translate(0,20px); opacity: 0; }
+#d-card {
+
 }
-@-moz-keyframes ca3_fade_move_down {
-  0%   { -moz-transform:translate(0,-20px); opacity: 0;  }
-  50%  { opacity: 1;  }
-  100% { -moz-transform:translate(0,20px); opacity: 0; }
+
+.price {
+  
 }
-@keyframes ca3_fade_move_down {
-  0%   { transform:translate(0,-20px); opacity: 0;  }
-  50%  { opacity: 1;  }
-  100% { transform:translate(0,20px); opacity: 0; }
+
+.card-title {
+
 }
 }
