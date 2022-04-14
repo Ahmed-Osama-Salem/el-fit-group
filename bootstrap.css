@@ -71,30 +71,84 @@ header .overlay {
 .logofit {
   margin-top: 100px;
   filter: drop-shadow(0 0 2px black);
+  position: relative;
+  animation-name: logofit;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  opacity: 0;
+  animation-delay: 8s;
+  animation-fill-mode: forwards;
 }
 
-h1 {
+.container-fluid h1 {
   letter-spacing: 15px;
   color: #ECDBBA;
   font-family: 'Orbitron', sans-serif;
   font-weight: bolder;
   filter: drop-shadow(0 0 2px black);
+  position: relative;
+  animation-name: fitgroup;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  opacity: 0;
+  animation-delay: 8s;
+  animation-fill-mode: forwards;
 }
 
 h1:hover {
   color: #dc3545;
 }
 
-h2 {
+header h2 {
   color: #E4CDA7;
   font-family: 'Orbitron', sans-serif;
   font-weight: 100;
   letter-spacing: 1px;
+  position: relative;
+  animation-name: contracting;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  opacity: 0;
+  animation-delay: 8s;
+  animation-fill-mode: forwards;
 }
 
 .container-fluid {
   padding-left: 5%;
   padding-right: 5%;
+}
+
+#btn-sign{
+  opacity: 0;
+  animation-name: btn;
+  animation-duration: 3s;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+  transition-property: transform;
+  transition-duration: 1s;
+}
+#btn-sign:hover{
+  transform: rotateY(360deg);
+}
+/***** header-section-animation ******/
+@keyframes logofit {
+  from {top:-300px;opacity: 0;}
+  to {top:0px;opacity: 1;}
+}
+
+@keyframes fitgroup {
+  from {left:-1200px;opacity: 0;}
+  to {left:0px;opacity: 1;}
+}
+
+@keyframes contracting {
+  from {right:-1200px;opacity: 0;}
+  to {right:0px;opacity: 1}
+}
+
+@keyframes btn {
+  from {opacity:0;}
+  to {opacity: 1;}
 }
 
 /***** fit-cv-section ******/
@@ -205,6 +259,8 @@ h2 {
 
 .tr1 {
   position: relative;
+  width: 400px;
+  height: 420px;
   border-radius: 20px;
   max-width: 100%;
   transition: transform 2s;
@@ -213,6 +269,8 @@ h2 {
 }
 
 .cont1 {
+  width: 400px;
+  height: 420px;
   border-radius: 20px;
   max-width: 100%;
   transition: transform 2s;
@@ -484,6 +542,12 @@ i {
     margin-top: 0px;
     width: 400px;
     float: left;
+    opacity: 0;
+    animation-name: logofit1;
+    animation-duration: 2s;
+    animation-delay: 8s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
   }
 
   #f1 {
@@ -509,11 +573,18 @@ i {
     font-family: 'Montserrat Alternates', sans-serif;
     padding: 2%;
     margin-top: 2%;
+    animation-delay: 8s;
   }
 
   #logofit1 {
     width: 100px;
   }
+
+  @keyframes logofit1 {
+    from {opacity:0;}
+    to {opacity:1;}
+  }
+
 
   #brand {
     font-size: 50px;
@@ -572,7 +643,7 @@ i {
     line-height: 60px;
     position: absolute;
     left: 50%;
-    bottom: 300px;
+    bottom: 200px;
     color: #FFF;
     text-align: center;
     font-size: 70px;
@@ -683,15 +754,117 @@ i {
   font-size: 2rem;
 }
 
-#d-card {
-
-}
-
 .price {
-  
+  padding: 5% 5%;
 }
 
 .card-title {
-
+ font-size: 3rem;
+ margin: 20px;
 }
+
+.card-text {
+ font-size: 2.5rem;
+ margin: 30px;
+}
+
+.bigbtn {
+  width: 300px;
+  letter-spacing: 2px;
+}
+
+#ff1 {
+  font-size: 2rem;
+}
+
+.card-body {
+  margin: 30px;
+}
+}
+
+/********** media quiry - contactus ***********/
+@media only screen and (max-device-width:480px) {
+#contact-us {
+  height: 100vh;
+  }
+#cont-us{
+  height: 100vh;
+  padding: 100px 70px;
+}
+
+#contact-us a {
+  text-decoration: none;
+}
+
+#contact-us img {
+  width: 150px;
+}
+
+#contact-us h4 {
+  font-size: 3rem;
+  letter-spacing: 5px;
+}
+
+#contact-us p {
+  font-size: 2rem;
+}
+
+.hobb {
+  box-sizing: border-box;
+  padding: 10px;
+  margin: 50px auto;
+}
+
+.foot img {
+  float: left;
+}
+
+.final {
+  margin-top: 40px;
+}
+
+.foot p {
+  padding: 30px;
+}
+}
+
+/********** media quiry - Services ***********/
+@media only screen and (max-device-width:480px) {
+  #services {
+    height: 100vh;
+  }
+  #serv {
+    height: 100vh;
+  }
+  #services .row {
+    height: 100%;
+  }
+
+  .tr1 {
+    width: 100%;
+    height: 60%;
+  }
+
+  .cont1 {
+    width: 100%;
+    height: 60%;
+  }
+
+  #services h2 {
+    font-size: 4rem;
+  }
+
+  #services h4 {
+    font-size: 2.5rem;
+  }
+
+  .overlay-img {
+    width: 82%;
+    height: 56%;
+    }
+
+  .overlay-img2 {
+    width: 85%;
+    height: 60%;
+    }
 }
