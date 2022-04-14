@@ -76,7 +76,6 @@ header .overlay {
   animation-duration: 3s;
   animation-timing-function: ease-in-out;
   opacity: 0;
-  animation-delay: 8s;
   animation-fill-mode: forwards;
 }
 
@@ -91,7 +90,7 @@ header .overlay {
   animation-duration: 3s;
   animation-timing-function: ease-in-out;
   opacity: 0;
-  animation-delay: 8s;
+  animation-delay: 1s;
   animation-fill-mode: forwards;
 }
 
@@ -109,7 +108,7 @@ header h2 {
   animation-duration: 3s;
   animation-timing-function: ease-in-out;
   opacity: 0;
-  animation-delay: 8s;
+  animation-delay: 1s;
   animation-fill-mode: forwards;
 }
 
@@ -545,7 +544,7 @@ i {
     opacity: 0;
     animation-name: logofit1;
     animation-duration: 2s;
-    animation-delay: 8s;
+    animation-delay: 3s;
     animation-fill-mode: forwards;
     animation-timing-function: ease-in-out;
   }
@@ -573,7 +572,7 @@ i {
     font-family: 'Montserrat Alternates', sans-serif;
     padding: 2%;
     margin-top: 2%;
-    animation-delay: 8s;
+    animation-delay: 3s;
   }
 
   #logofit1 {
@@ -859,12 +858,10 @@ i {
   }
 
   .overlay-img {
-    width: 82%;
-    height: 56%;
+    display: none;
     }
 
   .overlay-img2 {
-    width: 85%;
-    height: 60%;
+    display: none;
     }
 }
